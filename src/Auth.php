@@ -249,7 +249,7 @@ class Auth
             return [];
         }
         $map = array(
-            'id'     => ['in', $ids],
+            'id'     => ['in', join(',', $ids)],
             'type'   => $type,
             'status' => 1,
         );
