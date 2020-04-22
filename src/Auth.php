@@ -202,7 +202,7 @@ class Auth
         {
             return $groups[$uid];
         }
-        // 转换表名
+        // 转换表名-
         $auth_group_access = $this->config['auth_group_access'];
         $auth_group        = $this->config['auth_group'];
         // 执行查询
